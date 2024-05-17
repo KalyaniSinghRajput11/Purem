@@ -1,0 +1,205 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    padding: 15px;
+}
+#nav{
+    height: 60px;
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    display: flex ;
+    align-items: center;
+    justify-content: space-between;
+    border: 3px solid grey ;
+    padding: 10px 30px;
+}
+#nav img{
+ height: 40px;
+ width: 100px;
+}
+#nav1{
+    display: flex ;
+    align-items: center;
+    gap: 20px   ;
+}
+#nav3{
+    display: flex;
+    gap: 20px;
+}
+#navbtn{
+    background-color: #fff;
+    border: 1.5px solid grey;
+    border-radius: 20px ;
+    padding: 6px 12px;
+}
+#nav2 input{
+    border: none;
+    margin-left: 10px;
+}
+#page1{
+    height: 90%;
+    width: 100%;
+   display: flex;
+}
+#left{
+    height: 100%;
+    width: 50%;
+    border-radius: 20%;
+    padding: 10px 20px;
+}
+#top{
+    height: 65%;
+    width: 100%;
+    background-color: #DBDAD7;
+    margin-bottom: 20px;
+    padding: 30px 35px;
+    border-radius: 20px;
+    }
+#top p{
+    margin-top: 90px;  
+    font-stretch:wider;
+    }
+
+ #bottom{
+    height: 33.5%;
+    width: 100%;
+    display: flex;
+   gap: 20px;
+    }
+#bpart1{
+    height: 100%;
+    width: 50%;
+    border-radius: 20px;
+    background-color: grey;
+    overflow: hidden;
+}
+#bpart1 img{
+    height: 340px;
+   margin-left: 5%;
+}  
+#bpart2{
+    height: 100%;
+    width: 50%;
+    border-radius: 20px;
+   background-color: #213b33ce;
+   overflow: hidden;
+}
+#bpart2 img{
+    height: 300px;
+   margin-left: 8%;
+}
+#bottom h4{
+    position: absolute;
+    font-size: 22px;
+    color: #fff;
+    padding: 20px;
+    margin-top: 130px;
+}
+#right{
+    height: 100%;
+    width: 50%; 
+    position: relative;
+    border-radius: 20px;
+    background-image: url(./Bucket-Hat-Olive-20210327024823.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#tag{
+    height: 100px;
+    width: 100px;
+   
+    border-radius: 50%;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -13%;
+   margin-left: 50%;
+
+}
+#tagcover{
+    height: 100px;
+    width: 100px;
+   margin-top: 42%;
+   margin-left: 50%;
+   background-color: #DBDAD7;
+   border-radius: 50%;
+   opacity: 50%;
+
+}
+#tag h3{
+    color: white;
+text-align: center;
+font-weight: 600;
+opacity: 100%;}
+
+#bottom1{
+    height: 60px;
+    width: 35%;
+    position: absolute;
+    display: flex;
+    margin-left: 64%;
+    margin-top: 35%;
+    gap: 30px;
+}
+#b1{
+    height: 50px;
+    width: 40%;
+    border-radius: 30px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 10px;
+}
+#b1 i{
+    background-color: black;
+    border-radius: 50%;
+    height: 35px;
+    color: #fff;
+   width: 35px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+#b1 h6{
+    padding-left: 15px;
+}
+#b2{
+    height: 50px;
+    width: 40%;
+    border-radius: 30px;
+    border: 2px solid black;
+    background-color: transparent;
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+   font-size: 20px;
+   padding: 10px;
+}
+#b2 i{
+    border-radius: 50%;
+    height: 35px;
+    color : black;
+   width: 35px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: #fff;
+}
+#b2 h6{
+    padding-left: 15px;
+}
+
